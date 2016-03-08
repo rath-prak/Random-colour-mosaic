@@ -26,7 +26,7 @@ h1{
 
 }
 
-.box, .box2, .box3, .box4, .box5, .box6, .box7, .box8, .box9{
+.box{
 	box-sizing: border-box;
 	width: 130px;
 	height: 130px;
@@ -34,11 +34,24 @@ h1{
 	list-style-type: none;
 	background: #A2A2A2;
 }
-.box:hover, .box2:hover, .box3:hover, .box4:hover, .box5:hover, .box6:hover, .box7:hover, .box8:hover, .box9:hover{
+.box:hover{
 	background: #848484;
 }
 
 .instructions{
 	text-align: center;
 	font-size: 16px;
+}
+#reset{
+	width: 180px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	color: white;
+	background: black;
+	border-radius: 10px;
+	margin: 0 auto;
+	font-size: 25px;
+	margin-bottom: 20px;
+	cursor: pointer;
 }
