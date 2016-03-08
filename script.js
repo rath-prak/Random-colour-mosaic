@@ -1,7 +1,11 @@
 $(document).ready(function () {
-	
 
-		function randomColor() {
+	for(var box = 1; box < 10; box++){
+		$("#container").append("<div>");
+		$("#container div").addClass("box");
+	};
+
+	function randomColor() {
 		return '#' + Math.random().toString(16).slice(2, 8);
 	};
 
